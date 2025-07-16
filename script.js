@@ -4,16 +4,16 @@ const estadoGuardado = JSON.parse(localStorage.getItem('materias-aprobadas')) ||
 const previas = {
   "Profundización": ["Cardio y Respiratorio"],
   "Biofísica": ["Fisica"],
-  "Fisiopatología y Patología": ["Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica"],
-  "Farmacología": ["Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica"],
+  "Fisiopatología y Patología": ["Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica", "Fisica"],
+  "Farmacología": ["Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Profundización", "Bioquímica", "Fisica"],
   "Unidad temática 1": ["Biofísica", "Farmacología", "Fisiopatología y Patología"],
   "Unidad temática 5": ["Biofísica", "Farmacología", "Fisiopatología y Patología"],
   "Unidad temática 2": ["Unidad temática 1"],
   "Unidad temática 3": ["Unidad temática 1"],
-  "Unidad temática 4": ["Unidad temática 3"],
+  "Unidad temática 4": ["Unidad temática 1"],
   "Unidad temática 6": ["Unidad temática 5"],
   "Unidad temática 7": ["Unidad temática 5"],
-  "Unidad temática 8": ["Unidad temática 7", "Unidad temática 4"],
+  "Unidad temática 8": ["Unidad temática 5"],
   "Internado": ["Unidad temática 8", "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Fisica", "Profundización", "Bioquímica", "Farmacología", "Fisiopatología y Patología", "Unidad temática 1", "Unidad temática 2", "Unidad temática 3", "Unidad temática 4", "Unidad temática 5", "Unidad temática 6", "Unidad temática 7"],
   "Monografía": ["Unidad temática 8", "Enfermería", "Metodología Científica", "Biología Celular y Tisular (BCyT)", "Anatomía", "Salud Pública", "Psicología", "Neurobiología", "Cardio y Respiratorio", "Digestivo, Renal y Endocrino", "Reproductor y Desarrollo", "Fisica", "Profundización", "Bioquímica", "Farmacología", "Fisiopatología y Patología", "Unidad temática 1", "Unidad temática 2", "Unidad temática 3", "Unidad temática 4", "Unidad temática 5", "Unidad temática 6", "Unidad temática 7"]
 };
